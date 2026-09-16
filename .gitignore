@@ -1,0 +1,13 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+node_modules/
+mock-s4/gen/
+data/out/
+*.db
+*.duckdb
+.DS_Store

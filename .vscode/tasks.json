@@ -1,0 +1,11 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    { "label": "mock: cds watch", "type": "shell", "command": "cd mock-s4 && cds watch", "isBackground": true, "problemMatcher": [], "presentation": { "panel": "dedicated", "group": "dev" } },
+    { "label": "api: uvicorn", "type": "shell", "command": "make api", "isBackground": true, "problemMatcher": [], "presentation": { "panel": "dedicated", "group": "dev" } },
+    { "label": "ui: streamlit", "type": "shell", "command": "make ui", "isBackground": true, "problemMatcher": [], "presentation": { "panel": "dedicated", "group": "dev" } },
+    { "label": "dev: all three", "dependsOn": ["mock: cds watch", "api: uvicorn", "ui: streamlit"], "dependsOrder": "parallel", "problemMatcher": [] },
+    { "label": "test", "type": "shell", "command": "make test", "group": { "kind": "test", "isDefault": true }, "problemMatcher": [] },
+    { "label": "data: regenerate", "type": "shell", "command": "make data", "problemMatcher": [] }
+  ]
+}

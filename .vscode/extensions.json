@@ -1,0 +1,18 @@
+{
+  "recommendations": [
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "charliermarsh.ruff",
+    "ms-toolsai.jupyter",
+    "SAPSE.vscode-cds",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "eamodio.gitlens",
+    "yzhang.markdown-all-in-one",
+    "bierner.markdown-mermaid",
+    "humao.rest-client",
+    "mikestead.dotenv",
+    "editorconfig.editorconfig",
+    "anthropic.claude-code"
+  ]
+}

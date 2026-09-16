@@ -1,0 +1,40 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "API: FastAPI (uvicorn)",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "uvicorn",
+      "args": ["service.main:app", "--reload", "--port", "8000"],
+      "envFile": "${workspaceFolder}/.env",
+      "jinja": true,
+      "justMyCode": false
+    },
+    {
+      "name": "Tests: pytest (current file)",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "pytest",
+      "args": ["${file}", "-x", "-q"],
+      "envFile": "${workspaceFolder}/.env",
+      "justMyCode": false
+    },
+    {
+      "name": "UI: Streamlit",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "streamlit",
+      "args": ["run", "ui/app.py", "--server.port", "8501"],
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "name": "Script: current file",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${file}",
+      "envFile": "${workspaceFolder}/.env",
+      "console": "integratedTerminal"
+    }
+  ]
+}

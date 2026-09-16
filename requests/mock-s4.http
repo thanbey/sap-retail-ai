@@ -1,0 +1,8 @@
+### Service document
+GET http://localhost:4004/odata/v4/retail/
+
+### AIF errors, first two
+GET http://localhost:4004/odata/v4/retail/AIFMessage?$filter=status eq 'ERROR'&$top=2
+
+### API health
+GET http://localhost:8000/health

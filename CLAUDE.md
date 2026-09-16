@@ -25,6 +25,9 @@ financial reconciliation. Built as a two-week portfolio project; see
   store (`service/audit/`). If a feature skips audit, it is not done.
 - Append a dated entry to `docs/DECISIONS.md` whenever you choose between
   alternatives (library, model, fallback). Keep entries to 3 to 5 lines.
+- Keep the build log as described in `docs/BUILD-LOG.md`: `/log` notes to
+  `docs/log/day-NN.md` during the day, curate into DECISIONS.md and the README
+  status table at the end of it.
 - Commit at least once per deliverable with a message that names the
   work-plan day, e.g. `day3: synthetic AIF error generator`.
 

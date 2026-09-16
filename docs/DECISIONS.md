@@ -11,3 +11,8 @@
 - US East (VA) - AWS chosen because SAP AI Core and HANA Cloud are both offered
   there on trial; EU regions were the alternative and lack the AI Core booster
   on some trial landscapes.
+
+## 2026-09-16 GitHub via gh CLI, HTTPS remote
+- Create repos with `gh repo create --public --source=. --push`, not the web
+  form. Remote is HTTPS with gh as credential helper; SSH remained an option
+  but HTTPS avoids key management on a new machine.

@@ -39,6 +39,8 @@ Tim is using this project to learn, not just to ship. Follow docs/LEARNING.md:
 - Keep the build log as described in `docs/BUILD-LOG.md`: `/log` notes to
   `docs/log/day-NN.md` during the day, curate into DECISIONS.md and the README
   status table at the end of it.
+- Architecture decisions go in `docs/adr/NNNN-slug.md`; small choices in
+  `docs/DECISIONS.md`.
 - Commit at least once per deliverable with a message that names the
   work-plan day, e.g. `day3: synthetic AIF error generator`.
 

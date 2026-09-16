@@ -6,3 +6,4 @@ Deliverable: BTP trial live, CLIs installed, both repos on GitHub, Day 0 post pu
 - 11:05  sap-retail-ai pushed to GitHub: https://github.com/thanbey/sap-retail-ai
 - 11:05  Lesson: `git push` cannot create a remote repo; "Repository not found" over SSH meant the repo did not exist yet, not a key problem. `gh repo create <name> --public --source=. --push` creates it from the CLI. gh already installed (2.101.0); gh auth login set git protocol to HTTPS.
 - 11:05  Remote switched from SSH to HTTPS (git remote set-url origin https://github.com/thanbey/sap-retail-ai.git); gh manages the credential. Blog repo still on SSH and works.
+- 12:10  Boosters page scanned: no SAP AI Core booster on the trial. HANA Cloud Admin Tools booster is there. ADR 0001 written: AI Core comes from the GenAI Hub 30-day trial, start it Day 1.

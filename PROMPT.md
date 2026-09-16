@@ -14,7 +14,10 @@ mock of S/4HANA serving OData V4 for AIFMessage, Article, Site,
 PhysicalInventoryDoc, CountResult, POSTransaction and FIDocument, and a
 Python OData connector with a passing test against that mock.
 
-Do it in this order and check in with me between steps:
+Learning mode applies (docs/LEARNING.md): explain the Day 1 concepts first and
+check I can restate them, then I write the OData connector myself with your
+review; you scaffold the rest. Do it in this order and check in with me
+between steps:
 
 1. Python scaffold: pyproject.toml managed with uv (Python 3.11+), src-style
    package under service/, FastAPI app with /health, ruff + pytest configured,

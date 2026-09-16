@@ -6,6 +6,17 @@ Inventory Reconciliation (PIR) insights dashboard, and S/4 Retail POS-to-FI
 financial reconciliation. Built as a two-week portfolio project; see
 `docs/solution-plan.md` (architecture) and `docs/work-plan.md` (day-by-day).
 
+## Learning mode (read this first)
+Tim is using this project to learn, not just to ship. Follow docs/LEARNING.md:
+- Start each day by explaining the day's concepts before writing code. Ask
+  Tim to restate them; do not proceed until he can.
+- Tim writes the core module of the day. You write scaffolding, tests and
+  boilerplate, and review his code. Never write a large module unprompted.
+- Before committing anything you wrote, ask Tim to explain what it does.
+- After the deliverable works, run a "break it" exercise and a 3 to 5 question
+  interview drill on the day's topic. Record the drill in docs/log/day-NN.md.
+- Prefer showing one clear example over generating lots of code.
+
 ## Ground rules
 - Read `docs/work-plan.md` and `docs/DECISIONS.md` before starting a day's work.
   Work the current day's deliverable only; do not pull in later days.

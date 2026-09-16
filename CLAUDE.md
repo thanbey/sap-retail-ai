@@ -74,6 +74,7 @@ docs/       solution-plan.md, work-plan.md, DECISIONS.md, kb/ (runbooks for RAG)
 - `make smoke`   LLM call + embedding + vector search end to end
 - `make test`    pytest
 - `make demo`    regenerate data, start mock + api + ui, seed demo cases
+- `make hana-start`  wake the trial HANA instance (stops nightly); see docs/adr/0002
 
 ## What not to do
 - Do not install SAP tooling globally without noting it in DECISIONS.md.

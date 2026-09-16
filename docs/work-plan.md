@@ -102,7 +102,7 @@ First 30 minutes: review yesterday's commit, update `DECISIONS.md`, pick the day
 |---|---|
 | AI Core free tier quota or provisioning delays | Serve models inside FastAPI; keep the AI Core serving template in the repo and note it |
 | Generative AI Hub trial not approved immediately | Use the fallback provider (Ollama locally or any OpenAI-compatible API) through the same `llm/` interface |
-| HANA Cloud trial instance stops (trial instances pause daily) | Startup script that restarts it; pgvector or DuckDB as a local dev alternative |
+| HANA Cloud trial instance stops nightly | `make hana-start` (cf update-service ... serviceStopped false); DuckDB as the local fallback behind the same interface |
 | CAP learning curve | Keep the model small; CAP's built-in mock data (csv in `db/data/`) is enough |
 | Scope creep in the UI | Streamlit only; SAP Build or SAC tiles are a bonus, not a requirement |
 

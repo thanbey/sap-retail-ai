@@ -16,3 +16,14 @@
 - Create repos with `gh repo create --public --source=. --push`, not the web
   form. Remote is HTTPS with gh as credential helper; SSH remained an option
   but HTTPS avoids key management on a new machine.
+
+## 2026-09-16 Approach check against SAP Community prior art
+- Exception triage agents on BTP with LangGraph plus Generative AI Hub are an
+  established pattern (SAP Architecture Center golden path, Dorairaj series).
+  Keep the stack. Differentiate on: AIF and retail specificity, typed
+  remediation gated by policy and approval, audit trail, PIR and POS-to-FI.
+- Cloud ALM Solving Tips only recommends SAP Notes; Sentinel acts. State this
+  explicitly in the solution plan and Day 10 post.
+- Single agent for Sentinel in the prototype; router plus sub-agents is a
+  documented production delta, not a two-week goal.
+- Use parameterised queries everywhere (prior art used f-string SQL).

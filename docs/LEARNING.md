@@ -56,3 +56,16 @@ this system without notes. Claude Code is a tutor and pair, not a contractor.
   Monitoring page.
 - LangGraph concepts: state, nodes, edges, tools, human-in-the-loop.
 - S/4HANA Retail physical inventory and POS data transfer overview pages.
+
+## Prior art on SAP Community (read before the matching day)
+
+| Day | Post | Take from it |
+|---|---|---|
+| 1 | Monitoring and error handling for interfaces in AIF (members, 2023) | AIF vocabulary: interfaces, namespaces, error categories, restart vs cancel |
+| 2 | How to Integrate SAP AI Core with LangChain Using Generative AI Hub SDK (SAP) | `generative-ai-hub-sdk`, `gen_ai_hub.proxy.langchain` ChatOpenAI with `proxy_model_name` |
+| 3 | Cloud ALM Alert Overview, Integration & Exception Monitoring example (SAP) | Alert and exception payload shapes to mirror in the mock |
+| 3 | Cloud ALM AI-assisted Solving Tips (SAP, 2025) | Cloud ALM's built-in AI recommends SAP Notes only; it does not act. That gap is Sentinel's reason to exist |
+| 5 | SAP Agentic AI in Practice, Parts 1 and 3 (Dorairaj, 2026) | LangGraph state schema, router plus sub-agents, reactive vs scheduled monitoring. Note: triage only, no remediation, no approval, f-string SQL |
+| 6 | Hands-on: AI Agent with human-in-the-loop control (CanAbdulla, 2025) | Review node before mutative tools; the approval pattern we use |
+| 10 | Build AI Agents on SAP BTP, SAP Architecture Center golden path | Pro-code (LangGraph via SAP Cloud SDK for AI) vs Joule Studio; A2A and MCP; cite in the final post |
+| 10 | SAP AI Agent Hub (SAP, 2026) | Governance layer for agents; mention in production deltas |

@@ -65,7 +65,7 @@ docs/       solution-plan.md, work-plan.md, DECISIONS.md, kb/ (runbooks for RAG)
 - Classical ML: scikit-learn / LightGBM. Agent loop: LangGraph.
 - UI: Streamlit only. SAP Build / SAC are stretch goals, not requirements.
 
-## Commands
+## Commands (Makefile targets; created on Day 1, later days' targets are stubs until their day)
 - `make setup`   create venv, install deps, install CAP deps
 - `make mock`    run the CAP mock on :4004
 - `make api`     run FastAPI on :8000
